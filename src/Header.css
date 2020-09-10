@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex: 1; */
+}
+
+.button{
+    text-decoration-color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    width: 100px;
+}
+
+.login__button{
+    background-color: #FFE1A1;
+}
+
+.signup__button{
+    background-color: #3CC18E;
+}
+.login__button > h4{
+    color: #3CC18E;
+}
+
+.signup__button > h4 {
+    color: white;
+}

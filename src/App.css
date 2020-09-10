@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+}
+
+
+
+@media only screen and (max-width: 700px){
+  .home__page{
+    height: 80vh;
+  }
+}
+
+
+@media only screen and (min-width: 700px){
+  .home__page{
+    height: 90vh;
+  }
+}
+
+.home__page{
+  background-color: #FFE1A1;
+  background-size: contain;
+  width: auto;
+  overflow-x: hidden;
+}

@@ -1,0 +1,83 @@
+
+
+@media only screen and (min-width: 1000px){
+    .home {
+        background-image: url(./images//BannerIcons.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {   
+    .home{
+        margin: 30px;
+    }
+}
+
+
+.home__heading{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.home__heading > h1 {
+    font-size: 50px;
+}
+
+.home__heading > h3 {
+    font-size: 20px;
+}
+
+.home__search{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    max-width: 700px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.home__search > input {
+    border: none;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.home__search > img {
+    margin-left: 8px;
+}
+
+.home__button{
+    text-decoration-color: white;
+    margin-right: 12px;
+    border-radius: 8px;
+    border: none;
+    height: 32px;
+    width: 100px;
+    background-color: #3CC18E;
+}
+
+.home__button > h4{
+    color: white;
+}
+
+.home__cities{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 480px;
+    width: 100%;
+}
